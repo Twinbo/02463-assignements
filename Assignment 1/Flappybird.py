@@ -16,7 +16,7 @@ np.random.seed(SEED)
 class FlappyBirdGame:
     def __init__(self):
         
-        self.rendering = False
+        self.rendering = True
         
         if self.rendering:
             pygame.init()
@@ -58,11 +58,11 @@ class FlappyBirdGame:
             self.white = (255, 255, 255)
 
             # Images
-            self.bg = pygame.image.load('/Users/haseebshafi/Library/CloudStorage/OneDrive-DanmarksTekniskeUniversitet/4. Semester/02463 - Active ML and Agency/Final_2/billeder/bg.png')
-            self.ground = pygame.image.load('/Users/haseebshafi/Library/CloudStorage/OneDrive-DanmarksTekniskeUniversitet/4. Semester/02463 - Active ML and Agency/Final_2/billeder/ground.png')
-            self.button_img = pygame.image.load('/Users/haseebshafi/Library/CloudStorage/OneDrive-DanmarksTekniskeUniversitet/4. Semester/02463 - Active ML and Agency/Final_2/billeder/game_over.png')
-            self.bird_imgs = [pygame.image.load(f'/Users/haseebshafi/Library/CloudStorage/OneDrive-DanmarksTekniskeUniversitet/4. Semester/02463 - Active ML and Agency/Final_2/billeder/bird{num}.png') for num in range(1, 4)]
-            self.pipe_img = pygame.image.load('/Users/haseebshafi/Library/CloudStorage/OneDrive-DanmarksTekniskeUniversitet/4. Semester/02463 - Active ML and Agency/Final_2/billeder/pipe_bottom.png')
+            self.bg = pygame.image.load('Assignment 1/billeder/bg.png')
+            self.ground = pygame.image.load('Assignment 1/billeder/ground.png')
+            self.button_img = pygame.image.load('Assignment 1/billeder/game_over.png')
+            self.bird_imgs = [pygame.image.load(f'Assignment 1/billeder/bird{num}.png') for num in range(1, 4)]
+            self.pipe_img = pygame.image.load('Assignment 1/billeder/pipe_bottom.png')
         else: 
             self.pipe_img = None
          

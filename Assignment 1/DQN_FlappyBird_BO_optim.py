@@ -7,7 +7,7 @@ import torch
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-from Flappybird_gemt_før_alt import FlappyBirdGame
+from Flappybird import FlappyBirdGame
 
 from botorch.models import SingleTaskGP
 from botorch.fit import fit_gpytorch_mll

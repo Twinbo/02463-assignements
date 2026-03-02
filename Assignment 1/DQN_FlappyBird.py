@@ -5,7 +5,7 @@
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
-from Flappybird_gemt_før_alt import FlappyBirdGame
+from Flappybird import FlappyBirdGame
 import pygame
 import os
 
