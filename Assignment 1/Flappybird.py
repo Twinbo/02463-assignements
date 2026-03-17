@@ -16,7 +16,7 @@ np.random.seed(SEED)
 class FlappyBirdGame:
     def __init__(self):
         
-        self.rendering = True
+        self.rendering = False # Set to true if you want to play the game, it is standard to false so it will train faster
         
         if self.rendering:
             pygame.init()
